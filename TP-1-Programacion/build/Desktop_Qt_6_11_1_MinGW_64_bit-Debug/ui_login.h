@@ -113,7 +113,7 @@ public:
         label_3->setText(QString());
         label->setText(QCoreApplication::translate("Login", "Usuario", nullptr));
         inUser->setInputMask(QString());
-        inUser->setPlaceholderText(QCoreApplication::translate("Login", "solo texto", nullptr));
+        inUser->setPlaceholderText(QString());
         label_2->setText(QCoreApplication::translate("Login", "Contrase\303\261a", nullptr));
         inPsw->setInputMask(QString());
         btnIngresar->setText(QCoreApplication::translate("Login", "Ingresar", nullptr));

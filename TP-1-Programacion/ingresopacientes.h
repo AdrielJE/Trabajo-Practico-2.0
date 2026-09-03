@@ -16,7 +16,7 @@ public:
     explicit IngresoPacientes(QWidget *parent = nullptr);
     ~IngresoPacientes();
 
-    /* Setters y Getters con las firmas exactas del .cpp */
+    // Setters y Getters
     void setListgenero(QStringList list);
     Paciente getIngresoPacientes();
 

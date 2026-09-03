@@ -144,7 +144,7 @@ public:
 
     void retranslateUi(QDialog *IngresoPacientes)
     {
-        IngresoPacientes->setWindowTitle(QCoreApplication::translate("IngresoPacientes", "Dialog", nullptr));
+        IngresoPacientes->setWindowTitle(QCoreApplication::translate("IngresoPacientes", "Ingreso de Pacientes", nullptr));
         label->setText(QCoreApplication::translate("IngresoPacientes", "Nombre y Apellido", nullptr));
         lineEdit->setInputMask(QString());
         label_3->setText(QCoreApplication::translate("IngresoPacientes", "Edad", nullptr));

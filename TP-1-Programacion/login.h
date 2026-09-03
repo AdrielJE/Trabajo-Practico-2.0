@@ -2,8 +2,8 @@
 #define LOGIN_H
 
 #include <QDialog>
-#include<QHash>
-#include<QMessageBox>//
+#include <QHash>
+#include <QMessageBox>
 
 namespace Ui {
 class Login;
@@ -19,6 +19,7 @@ public:
 
     //getter
     QString getUserLogin();
+
 private slots:
     void on_btnIngresar_clicked();
 

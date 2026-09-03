@@ -23,7 +23,9 @@ public:
     void setUserLogin(QString);
 
     void updateEspera();
+
     void updateAtendido();
+
     void lastAtendido();
 
 private slots:
@@ -43,9 +45,9 @@ private:
     Ui::MainWindow *ui;
     IngresoPacientes* uiWinIngresoPacientes;
 
+    //Colas utilizadas
     QQueue<Paciente> pacientes;
     QQueue<Paciente> atendidos;
 
-    QList<QString> movimientos; // listado de movimientos en GUI
 };
 #endif // MAINWINDOW_H
